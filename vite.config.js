@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api/": "https://owner-avatar-mern-ecommerce-backend.vercel.app/",
-      "/uploads/": "https://owner-avatar-mern-ecommerce-backend.vercel.app/",
+      "/api/": "https://owner-avatar-mern-ecommerce-backend.onrender.com",
+      "/uploads/": "https://owner-avatar-mern-ecommerce-backend.onrender.com",
     },
   },
 });
